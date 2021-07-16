@@ -1,0 +1,39 @@
+#footer {
+    padding: 20px 0;
+    border-top: 1px solid #eee;
+   
+}
+
+.ft-social,
+.ft-logo {
+    margin-bottom: 20px;
+}
+
+.copyright p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+.ft-link li,
+.ft-social li {
+    display: inline-block;
+}
+
+.ft-social li a {
+    color: #212529;
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 18px;
+}
+
+.ft-link li a:hover,
+.ft-social li a:hover {
+    color: #0dcaf0;
+}
+
+.ft-link li a {
+    color: #212529;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 15px;
+}

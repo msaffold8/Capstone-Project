@@ -1,0 +1,41 @@
+.Wrapper {
+    padding: 40px 0;
+}
+
+
+.product-item {
+    margin-bottom: 40px;
+}
+
+.product-item h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.product-item h2 a {
+    color: #212529;
+}
+
+.product-item h2 a:hover {
+    color: #0dcaf0;
+}
+
+.product-item img {
+    margin-bottom: 10px;
+}
+
+.product-item .save {
+    margin-top: 8px;
+    display: inline-block;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #212529;
+}
+
+.product-item .save:hover {
+    color: #0dcaf0;
+}
+
+.product-item .save i {
+    margin-right: 5px;
+}
