@@ -5,6 +5,7 @@ import { Footer } from "../Footer/Footer";
 export const BlogPage = (props) => {
   return (
     <div className="BlogPage">
+      <Header />
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -43,6 +44,7 @@ export const BlogPage = (props) => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

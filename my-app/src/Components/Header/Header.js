@@ -38,7 +38,7 @@ export const Header = (props) => {
             </div>
             <div className="col-sm-12 col-lg-4">
               <div className="top-login text-end">
-                <Link className="icon-link" to="/WishList">
+                <Link className="icon-link" to="/Login">
                   <a href="">Login</a>
                 </Link>
                 <span>/</span>

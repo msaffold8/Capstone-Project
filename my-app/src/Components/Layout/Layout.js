@@ -3,32 +3,38 @@ import { Footer } from "../Footer/Footer";
 import { HomePage } from "../Homepage/HomePage";
 import { BlogPage } from "../BlogPage/BlogPage";
 import { WishListPage } from "../WishListPage/WishListPage";
+import React, { useState } from "react";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Login } from "../Login/Login";
 
 export const Layout = (props) => {
+  const [token, setToken] = useState();
+
+  // if (!token) {
+  //   return <Login setToken={setToken} />;
+  // }
   return (
     <Router>
-      <div className="Layout">
-        <Header />
-        {/* <HomePage /> */}
+      <Switch>
+        <Route path="/Login">
+          <Login setToken={setToken} />
+        </Route>
 
-        <Switch>
-          <Route path="/Blog">  
-            <BlogPage />
-          </Route>
+        <Route path="/Blog">
+          <BlogPage />
+        </Route>
 
-          <Route path="/WishList">
-            <WishListPage />
-          </Route>
+        <Route path="/WishList">
+          <WishListPage />
+        </Route>
 
-          <Route path="/HomePage">
-            <HomePage />
-          </Route>
-        </Switch>
+        <Route path="/HomePage">
+          <HomePage />
+        </Route>
 
         <Footer />
-      </div>
+      </Switch>
     </Router>
   );
 };
