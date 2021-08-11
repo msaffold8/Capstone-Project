@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 import { Header } from "../Header/Header";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import React, { useState } from "react";
+// import { useAuth0 } from "@auth0/auth0-react";
+
 
 // async function loginUser(credentials) {
 //   return fetch("http://localhost:3002/login", {
@@ -16,6 +18,16 @@ import React, { useState } from "react";
 export const Login = ({ setToken }) => {
   const [username, setUserName] = useState();
   const [password, setPassword] = useState();
+
+
+  // const { user, isAuthenticated, isLoading, loginWithRedirect, logout } =
+  // useAuth0();
+//useAuth0() - connects auth0Provider to code. Index.js entire app. create loginWithRedirect on button click to redirect to login screen
+
+
+
+
+
 
   //   const handleSubmit = async (e) => {
   //     e.preventDefault();
