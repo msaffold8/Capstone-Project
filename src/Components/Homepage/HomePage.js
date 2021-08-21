@@ -13,6 +13,7 @@ export const HomePage = (props) => {
       <div className="Wrapper">
         <Card />
         <Card />
+
         {/* <Link className="icon-link" to="/Login">
           <a href="">Login</a>
         </Link> */}
