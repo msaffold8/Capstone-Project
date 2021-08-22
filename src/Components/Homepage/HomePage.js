@@ -10,22 +10,11 @@ export const HomePage = (props) => {
   return (
     <div className="HomePage">
       <Header />
-      <div className="Wrapper">
-        <Card />
-        <Card />
 
-        {/* <Link className="icon-link" to="/Login">
-          <a href="">Login</a>
-        </Link> */}
-        <Link to="/Login">
-          <input
-            type="submit"
-            name="submit"
-            className="btn btn-info btn-md"
-            value="Login"
-          />
-        </Link>
+      <div className="mainDisplay">
+        <Card />
       </div>
+
       <Footer />
     </div>
   );

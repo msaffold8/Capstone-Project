@@ -53,10 +53,10 @@ export const Header = (props) => {
       </div>
 
       {/* Nav */}
-      <nav class="navbar navbar-expand-lg navbar-dp">
+      <nav className="navbar navbar-expand-lg navbar-dp">
         <div class="container">
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbar"
@@ -66,51 +66,51 @@ export const Header = (props) => {
             </span>
           </button>
 
-          <a class="navbar-brand d-lg-none" href="index.html">
+          <a className="navbar-brand d-lg-none" href="index.html">
             <Link className="icon-link" to="/HomePage">
-              <img src="logo.png" alt="" class="img-fluid" />
+              <img src="logo.png" alt="" className="img-fluid" />
             </Link>
           </a>
 
           <button
-            class="navbar-search d-lg-none"
+            className="navbar-search d-lg-none"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#search"
           >
-            <span class="fas fa-search"></span>
+            <span className="fas fa-search"></span>
           </button>
 
-          <div class="collapse" id="search">
+          <div className="collapse" id="search">
             <input type="search" class="form-dp" placeholder="Search..." />
           </div>
 
-          <div class="collapse navbar-collapse w-100" id="navbar">
-            <ul class="navbar-nav">
-              <li class="nav-item dropdown">
-                <a class="nav-link active pl-0" href="index.html">
+          <div className="collapse navbar-collapse w-100" id="navbar">
+            <ul className="navbar-nav">
+              <li className="nav-item dropdown">
+                <a className="nav-link active pl-0" href="index.html">
                   What's New{" "}
                   <span>
                     <Icon icon={faCaretDown} />
                   </span>
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="drop1">
+                <ul className="dropdown-menu" aria-labelledby="drop1">
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Dropdown
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Dropdown
                     </a>
                   </li>
                 </ul>
               </li>
 
-              <li class="nav-item dropdown">
+              <li className="nav-item dropdown">
                 <a
-                  class="nav-link"
+                  className="nav-link"
                   href="#"
                   id="drop1"
                   data-bs-toggle="dropdown"
@@ -122,86 +122,86 @@ export const Header = (props) => {
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="drop1">
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Mom
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Dad
                     </a>
                   </li>
                 </ul>
               </li>
 
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="#">
+              <li className="nav-item dropdown">
+                <a className="nav-link" href="#">
                   Gifts By Occasion{" "}
                   <span>
                     <Icon icon={faCaretDown} />
                   </span>
                 </a>
-                <ul class="dropdown-menu dropdown" aria-labelledby="drop1">
+                <ul className="dropdown-menu dropdown" aria-labelledby="drop1">
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Father's Day
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Mother's Day
                     </a>
                   </li>
                 </ul>
               </li>
 
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="#">
+              <li className="nav-item dropdown">
+                <a className="nav-link" href="#">
                   Gifts By Category{" "}
                   <span>
                     <Icon icon={faCaretDown} />
                   </span>
                 </a>
-                <ul class="dropdown-menu dropdown" aria-labelledby="drop1">
+                <ul className="dropdown-menu dropdown" aria-labelledby="drop1">
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Travel
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Funny Gifts
                     </a>
                   </li>
                 </ul>
               </li>
 
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="#">
+              <li className="nav-item dropdown">
+                <a className="nav-link" href="#">
                   More Categories{" "}
                   <span>
                     <Icon icon={faCaretDown} />
                   </span>
                 </a>
-                <ul class="dropdown-menu dropdown" aria-labelledby="drop1">
+                <ul className="dropdown-menu dropdown" aria-labelledby="drop1">
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Random
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Submit a Product
                     </a>
                   </li>
                 </ul>
               </li>
 
-              <li class="nav-item d-lg-none">
-                <a class="btn-dp" href="#">
+              <li className="nav-item d-lg-none">
+                <a className="btn-dp" href="#">
                   Login
                 </a>
-                <a class="btn-dp" href="#">
+                <a className="btn-dp" href="#">
                   Register
                 </a>
               </li>
