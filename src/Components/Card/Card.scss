@@ -6,10 +6,10 @@
 // }
 
 .card {
-    background-color: #0dcaf0;
+    background-color: #eee;
     width: 400px;
-    padding: 10px;
-    border: 1px solid #eee
+    padding: 3px;
+    border: 1px solid #eee;
 }
 
 .inner-card {
@@ -28,7 +28,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #beb4aa;
+    color:#0dcaf0;
     border-radius: 50%;
     background-color: #eee
 }

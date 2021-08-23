@@ -1,0 +1,13 @@
+.ImageThumbnail {
+    &__Image {
+      width: 100%;
+      background-size: contain;
+    }
+  }
+  .ImageThumbnail--thumbnail {
+    .ImageThumbnail__Image {
+      width: 80px;
+      height: 80px;
+      background-size: contain;
+    }
+  }

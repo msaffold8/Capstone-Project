@@ -2,6 +2,7 @@ import "./Card.scss";
 import { useEffect, useState } from "react";
 import { FontAwesomeIcon as Icon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 export const Card = (props) => {
   const [products, setProducts] = useState(null);
@@ -14,6 +15,7 @@ export const Card = (props) => {
       setProducts(data.products);
     })();
   }, []);
+
   const style = {
     marginLeft: 10,
   };
@@ -44,7 +46,9 @@ export const Card = (props) => {
                     <div class="px-2 mt-3">
                       {" "}
                       <button class="btn px-3">Add to Wishlist</button>{" "}
-                      <button class="btn px-3">Add to cart</button>{" "}
+                      <Link className="icon-link" to="/CartPage">
+                        <button class="btn px-3">Add to cart</button>{" "}
+                      </Link>
                     </div>
                   </div>
                 </div>

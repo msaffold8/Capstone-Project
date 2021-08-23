@@ -7,6 +7,7 @@ import { Login } from "../Login/Login";
 import React, { useState } from "react";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { CartPage } from "../CartPage/CartPage";
 
 export const Layout = (props) => {
   const [token, setToken] = useState();
@@ -27,6 +28,10 @@ export const Layout = (props) => {
 
         <Route path="/WishList">
           <WishListPage />
+        </Route>
+
+        <Route path="/CartPage">
+          <CartPage />
         </Route>
 
         <Route path="/HomePage">
